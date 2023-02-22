@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa de viajeros Aeropuerto El Dorado Bogota 🇨🇴</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+
+                h1{
+			    text-align: center;
+                background-color: black;
+                color: white;
+                padding: 10px;
+		        }
+
+                #map_55f5df2e03142913629fa73ce936d2a4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>
+
+    <h1>El Dorado 2022 🛩 | Destinos nacionales por número de pasajeros anuales</h1>
+
+    <div class="folium-map" id="map_55f5df2e03142913629fa73ce936d2a4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_55f5df2e03142913629fa73ce936d2a4 = L.map(
+                "map_55f5df2e03142913629fa73ce936d2a4",
+                {
+                    center: [4.7014, -74.1469],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ee1d2de113cc49aa15937e5867ab81a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var circle_marker_7b83a5ce745858379853d1c164b897f3 = L.circleMarker(
+                [6.230833, -75.590556],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 49.450075, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_ee101710dd06a2be8603737e8ae7a795 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3005f341ccc546a77aba84207cc9f794 = $(`<div id="html_3005f341ccc546a77aba84207cc9f794" style="width: 100.0%; height: 100.0%;">3956006 Pasajeros</div>`)[0];
+                popup_ee101710dd06a2be8603737e8ae7a795.setContent(html_3005f341ccc546a77aba84207cc9f794);
+            
+        
+
+        circle_marker_7b83a5ce745858379853d1c164b897f3.bindPopup(popup_ee101710dd06a2be8603737e8ae7a795)
+        ;
+
+        
+    
+    
+            circle_marker_7b83a5ce745858379853d1c164b897f3.bindTooltip(
+                `<div>
+                     Colombia Medellin, Antioquia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_93086e2f4dbedbebca7e91bb6ffe0705 = L.circleMarker(
+                [10.4, -75.5],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36.8443875, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_6c128d20ebaed17392e403e79255921c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c6086221f81a248d0a25b0fa8071276 = $(`<div id="html_7c6086221f81a248d0a25b0fa8071276" style="width: 100.0%; height: 100.0%;">2947551 Pasajeros</div>`)[0];
+                popup_6c128d20ebaed17392e403e79255921c.setContent(html_7c6086221f81a248d0a25b0fa8071276);
+            
+        
+
+        circle_marker_93086e2f4dbedbebca7e91bb6ffe0705.bindPopup(popup_6c128d20ebaed17392e403e79255921c)
+        ;
+
+        
+    
+    
+            circle_marker_93086e2f4dbedbebca7e91bb6ffe0705.bindTooltip(
+                `<div>
+                     Colombia Cartagena, Bolívar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_04b634eaa87af9757fa04db3a6a80351 = L.circleMarker(
+                [3.420556, -76.522222],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 34.1929, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_0d30c99c4e954663983de4e8bc30767b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9ade15014447e9278f8947f2027f431 = $(`<div id="html_f9ade15014447e9278f8947f2027f431" style="width: 100.0%; height: 100.0%;">2735432 Pasajeros</div>`)[0];
+                popup_0d30c99c4e954663983de4e8bc30767b.setContent(html_f9ade15014447e9278f8947f2027f431);
+            
+        
+
+        circle_marker_04b634eaa87af9757fa04db3a6a80351.bindPopup(popup_0d30c99c4e954663983de4e8bc30767b)
+        ;
+
+        
+    
+    
+            circle_marker_04b634eaa87af9757fa04db3a6a80351.bindTooltip(
+                `<div>
+                     Colombia Cali, Valle del Cauca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_74144c650747c694aac5e58a07fff7d3 = L.circleMarker(
+                [10.963889, -74.796389],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.961725, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_09d07d964b04a90a527ee580e71747e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_720341f1129ad13c3fe8389c46d4cb66 = $(`<div id="html_720341f1129ad13c3fe8389c46d4cb66" style="width: 100.0%; height: 100.0%;">1756938 Pasajeros</div>`)[0];
+                popup_09d07d964b04a90a527ee580e71747e2.setContent(html_720341f1129ad13c3fe8389c46d4cb66);
+            
+        
+
+        circle_marker_74144c650747c694aac5e58a07fff7d3.bindPopup(popup_09d07d964b04a90a527ee580e71747e2)
+        ;
+
+        
+    
+    
+            circle_marker_74144c650747c694aac5e58a07fff7d3.bindTooltip(
+                `<div>
+                     Colombia Barranquilla, Atlántico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_073dac7bdff39e2b466135ce0e8b5a49 = L.circleMarker(
+                [11.2319728, -74.2007449],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.085025, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_effff532e70220580994e0713b26be55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9ec85b071648d249cf23905237d8102 = $(`<div id="html_e9ec85b071648d249cf23905237d8102" style="width: 100.0%; height: 100.0%;">1526802 Pasajeros</div>`)[0];
+                popup_effff532e70220580994e0713b26be55.setContent(html_e9ec85b071648d249cf23905237d8102);
+            
+        
+
+        circle_marker_073dac7bdff39e2b466135ce0e8b5a49.bindPopup(popup_effff532e70220580994e0713b26be55)
+        ;
+
+        
+    
+    
+            circle_marker_073dac7bdff39e2b466135ce0e8b5a49.bindTooltip(
+                `<div>
+                     Colombia Santa Marta, Magdalena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6be8d1cc657e96b4fd6f07461d0b7310 = L.circleMarker(
+                [7.133333, -73.0],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.5306125, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_c832802244d5f75d279ad264555d2a93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b456259365310baa1da2b56f365043e4 = $(`<div id="html_b456259365310baa1da2b56f365043e4" style="width: 100.0%; height: 100.0%;">1322449 Pasajeros</div>`)[0];
+                popup_c832802244d5f75d279ad264555d2a93.setContent(html_b456259365310baa1da2b56f365043e4);
+            
+        
+
+        circle_marker_6be8d1cc657e96b4fd6f07461d0b7310.bindPopup(popup_c832802244d5f75d279ad264555d2a93)
+        ;
+
+        
+    
+    
+            circle_marker_6be8d1cc657e96b4fd6f07461d0b7310.bindTooltip(
+                `<div>
+                     Colombia Bucaramanga, Santander
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_11338dd084e5a556353de160b6a1503b = L.circleMarker(
+                [4.814278, -75.694558],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.231875, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_dd985cd0d076d09d22e163e961fa3f05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51f0c716720346450d4b453bec685a57 = $(`<div id="html_51f0c716720346450d4b453bec685a57" style="width: 100.0%; height: 100.0%;">1218550 Pasajeros</div>`)[0];
+                popup_dd985cd0d076d09d22e163e961fa3f05.setContent(html_51f0c716720346450d4b453bec685a57);
+            
+        
+
+        circle_marker_11338dd084e5a556353de160b6a1503b.bindPopup(popup_dd985cd0d076d09d22e163e961fa3f05)
+        ;
+
+        
+    
+    
+            circle_marker_11338dd084e5a556353de160b6a1503b.bindTooltip(
+                `<div>
+                     Colombia Pereira, Risaralda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cf58668f85e86579c8b0777b8364c726 = L.circleMarker(
+                [12.584722, -81.700556],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.8386125, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_87bfd47228ec26e9f2c12a7097d7aa17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcc0331b229c699679d4b020ad6b29ed = $(`<div id="html_bcc0331b229c699679d4b020ad6b29ed" style="width: 100.0%; height: 100.0%;">1107089 Pasajeros</div>`)[0];
+                popup_87bfd47228ec26e9f2c12a7097d7aa17.setContent(html_bcc0331b229c699679d4b020ad6b29ed);
+            
+        
+
+        circle_marker_cf58668f85e86579c8b0777b8364c726.bindPopup(popup_87bfd47228ec26e9f2c12a7097d7aa17)
+        ;
+
+        
+    
+    
+            circle_marker_cf58668f85e86579c8b0777b8364c726.bindTooltip(
+                `<div>
+                     Colombia San Andrés
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b63031f7118bc58c4a815f5e1de75818 = L.circleMarker(
+                [7.894167, -72.503889],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.8635375, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_d41f20cdbc733049b17b5c131688f162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c99680700668339d761be2fdad25721c = $(`<div id="html_c99680700668339d761be2fdad25721c" style="width: 100.0%; height: 100.0%;">949083 Pasajeros</div>`)[0];
+                popup_d41f20cdbc733049b17b5c131688f162.setContent(html_c99680700668339d761be2fdad25721c);
+            
+        
+
+        circle_marker_b63031f7118bc58c4a815f5e1de75818.bindPopup(popup_d41f20cdbc733049b17b5c131688f162)
+        ;
+
+        
+    
+    
+            circle_marker_b63031f7118bc58c4a815f5e1de75818.bindTooltip(
+                `<div>
+                     Colombia Cucuta, Norte de Santander
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0ff982461fd8e2d16d843d94c2782cf9 = L.circleMarker(
+                [8.75, -75.883333],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.590975, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_19aef193a57941a90a61adb61dcaa546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97eec658691280e8257f347f65a6ea94 = $(`<div id="html_97eec658691280e8257f347f65a6ea94" style="width: 100.0%; height: 100.0%;">607278 Pasajeros</div>`)[0];
+                popup_19aef193a57941a90a61adb61dcaa546.setContent(html_97eec658691280e8257f347f65a6ea94);
+            
+        
+
+        circle_marker_0ff982461fd8e2d16d843d94c2782cf9.bindPopup(popup_19aef193a57941a90a61adb61dcaa546)
+        ;
+
+        
+    
+    
+            circle_marker_0ff982461fd8e2d16d843d94c2782cf9.bindTooltip(
+                `<div>
+                     Colombia Monteria, Córdoba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e57a99dab3cec28a6ed9e9a9dcd03a89 = L.circleMarker(
+                [4.528611, -75.704167],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.43405, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_d785bea64606d32129d0d42cf3961dc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee9ca98fb2047141530ed3ae2ab67658 = $(`<div id="html_ee9ca98fb2047141530ed3ae2ab67658" style="width: 100.0%; height: 100.0%;">434724 Pasajeros</div>`)[0];
+                popup_d785bea64606d32129d0d42cf3961dc0.setContent(html_ee9ca98fb2047141530ed3ae2ab67658);
+            
+        
+
+        circle_marker_e57a99dab3cec28a6ed9e9a9dcd03a89.bindPopup(popup_d785bea64606d32129d0d42cf3961dc0)
+        ;
+
+        
+    
+    
+            circle_marker_e57a99dab3cec28a6ed9e9a9dcd03a89.bindTooltip(
+                `<div>
+                     Colombia Armenia, Quindío
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2bc85e2f3e0db2b5723768df511c18e5 = L.circleMarker(
+                [5.35, -72.41],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.9966625, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_d7d2919a70da56fab5f46fd4d42ba71c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22160f017f5a780dbd653296cbbb3849 = $(`<div id="html_22160f017f5a780dbd653296cbbb3849" style="width: 100.0%; height: 100.0%;">399733 Pasajeros</div>`)[0];
+                popup_d7d2919a70da56fab5f46fd4d42ba71c.setContent(html_22160f017f5a780dbd653296cbbb3849);
+            
+        
+
+        circle_marker_2bc85e2f3e0db2b5723768df511c18e5.bindPopup(popup_d7d2919a70da56fab5f46fd4d42ba71c)
+        ;
+
+        
+    
+    
+            circle_marker_2bc85e2f3e0db2b5723768df511c18e5.bindTooltip(
+                `<div>
+                     Colombia Yopal, Casanare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2f87caa1a44e8479f2ae56fa730806e9 = L.circleMarker(
+                [10.4690257, -73.2570353],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4427125, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_7154139f802db938d13cbce85a1b093e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68c275782757e050fe2e2b9f1c1f200c = $(`<div id="html_68c275782757e050fe2e2b9f1c1f200c" style="width: 100.0%; height: 100.0%;">355417 Pasajeros</div>`)[0];
+                popup_7154139f802db938d13cbce85a1b093e.setContent(html_68c275782757e050fe2e2b9f1c1f200c);
+            
+        
+
+        circle_marker_2f87caa1a44e8479f2ae56fa730806e9.bindPopup(popup_7154139f802db938d13cbce85a1b093e)
+        ;
+
+        
+    
+    
+            circle_marker_2f87caa1a44e8479f2ae56fa730806e9.bindTooltip(
+                `<div>
+                     Colombia Valledupar, Cesar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26aedf6f9abb1dae4db2b68769c0598e = L.circleMarker(
+                [2.998611, -75.304444],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9108625, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_f711ffd0a2b0b3484d5ed383ee92e3c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2597d52bde1a87bcb02d7f6b008cc2c6 = $(`<div id="html_2597d52bde1a87bcb02d7f6b008cc2c6" style="width: 100.0%; height: 100.0%;">312869 Pasajeros</div>`)[0];
+                popup_f711ffd0a2b0b3484d5ed383ee92e3c6.setContent(html_2597d52bde1a87bcb02d7f6b008cc2c6);
+            
+        
+
+        circle_marker_26aedf6f9abb1dae4db2b68769c0598e.bindPopup(popup_f711ffd0a2b0b3484d5ed383ee92e3c6)
+        ;
+
+        
+    
+    
+            circle_marker_26aedf6f9abb1dae4db2b68769c0598e.bindTooltip(
+                `<div>
+                     Colombia Neiva, Huila
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_969ee64c74806eab7c9b6225dad49e1a = L.circleMarker(
+                [1.207778, -77.277222],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3816875, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_2466b319ad6cf829167c91ba7aa98fa1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09b2671da80a7470bb8263e25eca8b9d = $(`<div id="html_09b2671da80a7470bb8263e25eca8b9d" style="width: 100.0%; height: 100.0%;">270535 Pasajeros</div>`)[0];
+                popup_2466b319ad6cf829167c91ba7aa98fa1.setContent(html_09b2671da80a7470bb8263e25eca8b9d);
+            
+        
+
+        circle_marker_969ee64c74806eab7c9b6225dad49e1a.bindPopup(popup_2466b319ad6cf829167c91ba7aa98fa1)
+        ;
+
+        
+    
+    
+            circle_marker_969ee64c74806eab7c9b6225dad49e1a.bindTooltip(
+                `<div>
+                     Colombia Pasto, Nariño
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2e3e32172b0bfa036a598983f7c28566 = L.circleMarker(
+                [-4.216667, -69.933333],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.73505, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_6cefe097d6d0608296a250b0014ce0d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35bb9f302d58cb33a407db127e285e00 = $(`<div id="html_35bb9f302d58cb33a407db127e285e00" style="width: 100.0%; height: 100.0%;">218804 Pasajeros</div>`)[0];
+                popup_6cefe097d6d0608296a250b0014ce0d5.setContent(html_35bb9f302d58cb33a407db127e285e00);
+            
+        
+
+        circle_marker_2e3e32172b0bfa036a598983f7c28566.bindPopup(popup_6cefe097d6d0608296a250b0014ce0d5)
+        ;
+
+        
+    
+    
+            circle_marker_2e3e32172b0bfa036a598983f7c28566.bindTooltip(
+                `<div>
+                     Colombia Leticia, Amazonas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d1e9c4fce617779b78e60a742c568988 = L.circleMarker(
+                [5.0676781, -75.5098239],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.4454, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_b571b47fa5f787f50911d44a85f0189b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f14c93d2827e4c7a672eaa54f79c71a = $(`<div id="html_9f14c93d2827e4c7a672eaa54f79c71a" style="width: 100.0%; height: 100.0%;">195632 Pasajeros</div>`)[0];
+                popup_b571b47fa5f787f50911d44a85f0189b.setContent(html_9f14c93d2827e4c7a672eaa54f79c71a);
+            
+        
+
+        circle_marker_d1e9c4fce617779b78e60a742c568988.bindPopup(popup_b571b47fa5f787f50911d44a85f0189b)
+        ;
+
+        
+    
+    
+            circle_marker_d1e9c4fce617779b78e60a742c568988.bindTooltip(
+                `<div>
+                     Colombia Manizales, Caldas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cc706ca76cdb198ec10ed0dcc5ffaaad = L.circleMarker(
+                [7.06217, -73.85433],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.20585, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_b631049ead6c8dee67a585ec8c4a6be5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a600d07c8ef99b6eba7088bd9a87840 = $(`<div id="html_1a600d07c8ef99b6eba7088bd9a87840" style="width: 100.0%; height: 100.0%;">176468 Pasajeros</div>`)[0];
+                popup_b631049ead6c8dee67a585ec8c4a6be5.setContent(html_1a600d07c8ef99b6eba7088bd9a87840);
+            
+        
+
+        circle_marker_cc706ca76cdb198ec10ed0dcc5ffaaad.bindPopup(popup_b631049ead6c8dee67a585ec8c4a6be5)
+        ;
+
+        
+    
+    
+            circle_marker_cc706ca76cdb198ec10ed0dcc5ffaaad.bindTooltip(
+                `<div>
+                     Colombia Barrancabermeja, Santander
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0bba70feae38e41ad6d4eda28d35f57f = L.circleMarker(
+                [4.4449323, -75.2434283],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.853675, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_d4bc2bd04491080ccb7f3942dcbc7c0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bbd704e01d175d5ed6dbb3c8c6e2c64 = $(`<div id="html_3bbd704e01d175d5ed6dbb3c8c6e2c64" style="width: 100.0%; height: 100.0%;">148294 Pasajeros</div>`)[0];
+                popup_d4bc2bd04491080ccb7f3942dcbc7c0f.setContent(html_3bbd704e01d175d5ed6dbb3c8c6e2c64);
+            
+        
+
+        circle_marker_0bba70feae38e41ad6d4eda28d35f57f.bindPopup(popup_d4bc2bd04491080ccb7f3942dcbc7c0f)
+        ;
+
+        
+    
+    
+            circle_marker_0bba70feae38e41ad6d4eda28d35f57f.bindTooltip(
+                `<div>
+                     Colombia Ibague, Tolima
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_713b0c684f9af228352e6a915530dd3c = L.circleMarker(
+                [11.544167, -72.906944],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.6794125, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_37188f2928a3383ff7f1eef87c0fcee2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a46212de395e426f1e7616c02ffb4da1 = $(`<div id="html_a46212de395e426f1e7616c02ffb4da1" style="width: 100.0%; height: 100.0%;">134353 Pasajeros</div>`)[0];
+                popup_37188f2928a3383ff7f1eef87c0fcee2.setContent(html_a46212de395e426f1e7616c02ffb4da1);
+            
+        
+
+        circle_marker_713b0c684f9af228352e6a915530dd3c.bindPopup(popup_37188f2928a3383ff7f1eef87c0fcee2)
+        ;
+
+        
+    
+    
+            circle_marker_713b0c684f9af228352e6a915530dd3c.bindTooltip(
+                `<div>
+                     Colombia Riohacha, La Guajira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f4415b6b53a53c39d1ec129d0b087867 = L.circleMarker(
+                [2.444511, -76.6145619],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4491375, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_b52545e5c4b3bbd430f05dbd96017aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_513214f74d866c332d19f6e4e92b5c3a = $(`<div id="html_513214f74d866c332d19f6e4e92b5c3a" style="width: 100.0%; height: 100.0%;">115931 Pasajeros</div>`)[0];
+                popup_b52545e5c4b3bbd430f05dbd96017aa4.setContent(html_513214f74d866c332d19f6e4e92b5c3a);
+            
+        
+
+        circle_marker_f4415b6b53a53c39d1ec129d0b087867.bindPopup(popup_b52545e5c4b3bbd430f05dbd96017aa4)
+        ;
+
+        
+    
+    
+            circle_marker_f4415b6b53a53c39d1ec129d0b087867.bindTooltip(
+                `<div>
+                     Colombia Popayán, Cauca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_827921407329a6bacb17bc7a67082c03 = L.circleMarker(
+                [4.15, -73.633333],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3904625, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_6100ce75b4f1e9037742b4146115d8dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_561e4e45ed8e013ec176b1afe928b65f = $(`<div id="html_561e4e45ed8e013ec176b1afe928b65f" style="width: 100.0%; height: 100.0%;">111237 Pasajeros</div>`)[0];
+                popup_6100ce75b4f1e9037742b4146115d8dc.setContent(html_561e4e45ed8e013ec176b1afe928b65f);
+            
+        
+
+        circle_marker_827921407329a6bacb17bc7a67082c03.bindPopup(popup_6100ce75b4f1e9037742b4146115d8dc)
+        ;
+
+        
+    
+    
+            circle_marker_827921407329a6bacb17bc7a67082c03.bindTooltip(
+                `<div>
+                     Colombia Villavicencio, Meta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_df5532b270ecccc366c262f64651b781 = L.circleMarker(
+                [6.66668, -71.0],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1045125, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_0edfa1368b6b16044533ca362c9ee2e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c77a40b651bedbd54bd3260bebe6d2e5 = $(`<div id="html_c77a40b651bedbd54bd3260bebe6d2e5" style="width: 100.0%; height: 100.0%;">88361 Pasajeros</div>`)[0];
+                popup_0edfa1368b6b16044533ca362c9ee2e1.setContent(html_c77a40b651bedbd54bd3260bebe6d2e5);
+            
+        
+
+        circle_marker_df5532b270ecccc366c262f64651b781.bindPopup(popup_0edfa1368b6b16044533ca362c9ee2e1)
+        ;
+
+        
+    
+    
+            circle_marker_df5532b270ecccc366c262f64651b781.bindTooltip(
+                `<div>
+                     Colombia Arauca, Arauca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5404b3b6b146a51070334d49c1ddb9dd = L.circleMarker(
+                [5.692222, -76.658056],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0127, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_0d7f68f80df3ca81c2a685124689069f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98a47b85324c2bdc2bde90a399222228 = $(`<div id="html_98a47b85324c2bdc2bde90a399222228" style="width: 100.0%; height: 100.0%;">81016 Pasajeros</div>`)[0];
+                popup_0d7f68f80df3ca81c2a685124689069f.setContent(html_98a47b85324c2bdc2bde90a399222228);
+            
+        
+
+        circle_marker_5404b3b6b146a51070334d49c1ddb9dd.bindPopup(popup_0d7f68f80df3ca81c2a685124689069f)
+        ;
+
+        
+    
+    
+            circle_marker_5404b3b6b146a51070334d49c1ddb9dd.bindTooltip(
+                `<div>
+                     Colombia Quibdó, Chocó
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3bc5245d9c15edc068fa0188d03f74e4 = L.circleMarker(
+                [1.613889, -75.612778],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9842625, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_99ff1f3a5762769289f233561c877831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a8dacf9da0bbe27060a61d6555e714b = $(`<div id="html_5a8dacf9da0bbe27060a61d6555e714b" style="width: 100.0%; height: 100.0%;">78741 Pasajeros</div>`)[0];
+                popup_99ff1f3a5762769289f233561c877831.setContent(html_5a8dacf9da0bbe27060a61d6555e714b);
+            
+        
+
+        circle_marker_3bc5245d9c15edc068fa0188d03f74e4.bindPopup(popup_99ff1f3a5762769289f233561c877831)
+        ;
+
+        
+    
+    
+            circle_marker_3bc5245d9c15edc068fa0188d03f74e4.bindTooltip(
+                `<div>
+                     Colombia Florencia, Caquetá
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7ec9d9b2064ed72bbf9567ec3cd1d1c2 = L.circleMarker(
+                [9.31778, -75.29583],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.3541625, "stroke": true, "weight": 3}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+        var popup_56f9da66fbfa9babe2c6450b07704486 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc0499c1bf599c37903f3c59ffb13f80 = $(`<div id="html_cc0499c1bf599c37903f3c59ffb13f80" style="width: 100.0%; height: 100.0%;">28333 Pasajeros</div>`)[0];
+                popup_56f9da66fbfa9babe2c6450b07704486.setContent(html_cc0499c1bf599c37903f3c59ffb13f80);
+            
+        
+
+        circle_marker_7ec9d9b2064ed72bbf9567ec3cd1d1c2.bindPopup(popup_56f9da66fbfa9babe2c6450b07704486)
+        ;
+
+        
+    
+    
+            circle_marker_7ec9d9b2064ed72bbf9567ec3cd1d1c2.bindTooltip(
+                `<div>
+                     Colombia Corozal, Sucre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var tile_layer_8f0f004d94b0fd8b4778115af894cc16 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_cd9b9b559fa93d53afc4811a1626580c = new L.Control.MiniMap(
+                tile_layer_8f0f004d94b0fd8b4778115af894cc16,
+                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": false, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
+            );
+            map_55f5df2e03142913629fa73ce936d2a4.addControl(mini_map_cd9b9b559fa93d53afc4811a1626580c);
+        
+    
+            var tile_layer_f54ef6a45fec5504d4e2094942c7f071 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var tile_layer_98a8ce73cf6dfe7fc046068391e28168 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var tile_layer_3271855f54700543a3dba4de51c8f911 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var tile_layer_e9f05bcb40ac3a5d9de25d946e3ddd63 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var tile_layer_9255bc76e6614df952ee80786c908d3b = L.tileLayer(
+                "https://tileserver.memomaps.de/tilegen/{z}/{x}/{y}.png",
+                {"attribution": "Map \u003ca href=\"https://memomaps.de/\"\u003ememomaps.de\u003c/a\u003e \u003ca href=\"http://creativecommons.org/licenses/by-sa/2.0/\"\u003eCC-BY-SA\u003c/a\u003e, map data \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var tile_layer_df9ee6c1d83896852d33f6050735b313 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Esri", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var tile_layer_8e4073b488e4a3ec2e83b1bd42298e04 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var tile_layer_7002a119200bdcbdaa68ee78a10219ab = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Source: National Geographic", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var tile_layer_db57d0b990ba7e56a632b5c1c185a9fa = L.tileLayer(
+                "https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png",
+                {"attribution": "CyclOSM - Open Bicycle render", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+        
+    
+            var layer_control_c85af74b7a29061b7ebfa486e4a80aeb = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_0ee1d2de113cc49aa15937e5867ab81a,
+                    "stamenterrain" : tile_layer_f54ef6a45fec5504d4e2094942c7f071,
+                    "stamentoner" : tile_layer_98a8ce73cf6dfe7fc046068391e28168,
+                    "cartodbpositron" : tile_layer_3271855f54700543a3dba4de51c8f911,
+                    "cartodbdark_matter" : tile_layer_e9f05bcb40ac3a5d9de25d946e3ddd63,
+                    "Karte" : tile_layer_9255bc76e6614df952ee80786c908d3b,
+                    "Esri WorldImagery" : tile_layer_df9ee6c1d83896852d33f6050735b313,
+                    "World Street Map" : tile_layer_8e4073b488e4a3ec2e83b1bd42298e04,
+                    "NatGeo" : tile_layer_7002a119200bdcbdaa68ee78a10219ab,
+                    "Cycle" : tile_layer_db57d0b990ba7e56a632b5c1c185a9fa,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_c85af74b7a29061b7ebfa486e4a80aeb.base_layers,
+                layer_control_c85af74b7a29061b7ebfa486e4a80aeb.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_55f5df2e03142913629fa73ce936d2a4);
+            tile_layer_f54ef6a45fec5504d4e2094942c7f071.remove();
+            tile_layer_98a8ce73cf6dfe7fc046068391e28168.remove();
+            tile_layer_3271855f54700543a3dba4de51c8f911.remove();
+            tile_layer_e9f05bcb40ac3a5d9de25d946e3ddd63.remove();
+            tile_layer_9255bc76e6614df952ee80786c908d3b.remove();
+            tile_layer_df9ee6c1d83896852d33f6050735b313.remove();
+            tile_layer_8e4073b488e4a3ec2e83b1bd42298e04.remove();
+            tile_layer_7002a119200bdcbdaa68ee78a10219ab.remove();
+            tile_layer_db57d0b990ba7e56a632b5c1c185a9fa.remove();
+        
+</script>
+</html>
